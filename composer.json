@@ -1,0 +1,13 @@
+{
+    "name": "plum/reflect",
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "require": {
+        "php": ">=5.6",
+        "doctrine/annotations": "1.2.*"
+    },
+    "autoload": {
+        "psr-4": { "Plum\\Reflect\\": "" }
+    }
+}
